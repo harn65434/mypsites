@@ -1,0 +1,1 @@
+*.tmpl und update.php: Links in das studio-progs-Unterverzeichnis

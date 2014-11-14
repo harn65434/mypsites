@@ -1,0 +1,15 @@
+<?php
+  $sqlcmd = "select tag as tag, status as status from xart;";
+  $dbh = opendb();
+  mysql_select_db($database);
+
+  $result = mysql_query($sqlcmd,$dbh);
+  $new_array = array();
+  while( $row = mysql_fetch_assoc($result) )
+  {
+    $tag = $row['tag'];
+    $status = $row['status'];
+    $new_array[$tag] = $status;
+  }
+?>
+
