@@ -1,0 +1,175 @@
+div {
+float:none;
+}
+
+body.readonly
+{
+background:#F2F5A9;
+}
+
+body.normal
+{
+background:#ffffff;
+}
+img.hide
+{
+opacity:0.1;
+}
+
+img.hide:hover
+{
+opacity:0.4;
+}
+
+img.avail
+{
+opacity:0.2;
+}
+
+img.avail:hover
+{
+opacity:0.4;
+}
+
+img.unavail
+{
+opacity:1.0;
+}
+
+img.hideext
+{
+opacity:0.8;
+background:#000000;
+}
+
+img.hideext:hover
+{
+opacity:1;
+background:#000000;
+}
+
+img.availext
+{
+opacity:0.2;
+background:#00ff00;
+}
+
+img.availext:hover
+{
+opacity:0.2;
+background:#00ff00;
+}
+
+img.unavailext
+{
+opacity:1.0;
+background:#ff0000;
+}
+
+img.new
+{
+opacity:1.0;
+border-color: red;
+border-style: solid;
+border-width:5px;
+}
+
+img.newext
+{
+opacity:1.0;
+background: red;
+}
+
+img.downloading
+{
+opacity: 1.0;
+border-color: orange;
+border-style: solid;
+border-width: 5px;
+}
+
+img.downloadingext
+{
+opacity: 1.0;
+background: orange;
+}
+
+img.offsite
+{
+opacity: 1.0;
+border-color: yellow;
+border-style: solid;
+border-width: 5px;
+}
+
+img.offsiteext
+{
+opacity: 1.0;
+background: yellow;
+}
+
+img.onsite
+{
+opacity:0.2;
+border-color: green;
+border-style: solid;
+border-width: 5px;
+}
+
+img.onsite:hover
+{
+opacity:0.4;
+border-color: green;
+border-style: solid;
+border-width: 5px;
+}
+
+img.onsiteext
+{
+opacity: 0.4;
+background: green;
+}
+
+img.archived
+{
+opacity:0.2;
+border-color: cyan;
+border-style: solid;
+border-width: 5px;
+}
+
+img.archived:hover
+{
+opacity:0.4;
+border-color: cyan;
+border-style: solid;
+border-width: 5px;
+}
+
+img.archivedext
+{
+opacity: 0.4;
+background: cyan;
+}
+
+img.mirrored
+{
+opacity:0.2;
+border-color: blue;
+border-style: solid;
+border-width: 5px;
+}
+
+img.mirrored:hover
+{
+opacity:0.4;
+border-color: blue 
+border-style: solid;
+border-width: 5px;
+}
+
+img.mirroredext
+{
+opacity: 0.4;
+background: blue;
+}

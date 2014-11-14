@@ -1,0 +1,15 @@
+<?php
+  $sqlcmd = "select `index` as id, status as status from danejones where prefix=\"$pre\";";
+  $dbh = opendb();
+  mysql_select_db($database);
+
+  $result = mysql_query($sqlcmd,$dbh);
+  $new_array = array();
+  while( $row = mysql_fetch_assoc($result) )
+  {
+    $id = $row['id'];
+    $status = $row['status'];
+    $new_array[$id] = $status;
+  }
+?>
+
